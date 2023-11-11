@@ -58,13 +58,13 @@ p, h1, h2, h3, h4, h5, h6 {
   max-width: 112rem;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
 }
 
 .header h1 {
-  color: #e5e5e5;
+  color: #e5e7eb;
   font-size: 24px;
 }
 
@@ -72,7 +72,7 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   list-style: none;
   gap: 16px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .nav-list a:link,
 .nav-list a:visited {
@@ -85,4 +85,53 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+.hero {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.hero-text {
+  flex: 1;
+  color: #e5e7eb;
+  
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+
+.hero-text p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+
+.hero-image{
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 1;
+}
+
+
+.btn {
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn.sign-up-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+.btn.sign-up-btn:hover {
+  cursor: pointer;
+  background-color: #3275dd;
+}
