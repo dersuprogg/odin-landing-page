@@ -10,6 +10,10 @@
 * {
   margin: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
 /*
   Typographic tweaks!
   3. Add accessible line-height
@@ -44,3 +48,41 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.wrapper {
+  background-color: #1f2937;
+  padding: 12px 64px;
+}
+
+.header {
+  max-width: 112rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.header h1 {
+  color: #e5e5e5;
+  font-size: 24px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  font-size: 18px;
+}
+.nav-list a:link,
+.nav-list a:visited {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.nav-list a:link:hover {
+  text-decoration: underline;
+}
+
+
+
